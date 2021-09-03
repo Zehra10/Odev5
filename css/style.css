@@ -5,7 +5,7 @@ body{
 	margin: 0;
 	padding: 0;
 	background-color: #dbdbdb;
-	font-family: 'Rampart One', cursive;
+	font-family: 'IBM Plex Sans Arabic', sans-serif;
 }
 #social{
 	background-color: #000;
@@ -226,4 +226,102 @@ h1{
 	background-color: #f1f1f1;
 	width: 100%;
 	margin-top: -5px;
+}
+.galeriimg{
+	width: 22%;
+	height: 200px;
+	border-radius: 10px;
+	opacity: 1;
+	margin: 10px;
+	transition: all 0.6s;
+	box-shadow: 0 2px 8px rgba(20, 23, 28, .15);
+	object-fit: cover;
+}
+.galeriimg:hover{
+	opacity: 0.8;
+	border: 5px solid #fff;
+	cursor: pointer;
+}
+
+.link:link{
+	text-decoration: none;
+}
+iframe{
+	width: 98%;
+	height: 350px;
+	border-radius: 10px;
+	margin-top: 10px;
+	margin-left: 10px;
+	box-shadow: 0 2px 8px rgba(20, 23, 28, .15);
+}
+.section1{
+	width: 98%;
+	height: 410px;
+	margin: auto;
+	margin-top: 10px;
+	background-color: #f2f2f2;
+	padding: 10px;
+	box-shadow: 0 2px 8px rgba(20, 23, 28, .15);
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
+.form{
+	width: 49%;
+	height: 380px;
+	float: left;
+	border: 1px solid #d8d8d8;
+	padding: 10px;
+	margin-right: 10px;
+}
+.col25{
+	width: 25%;
+	float: left;
+	margin-top: 6px;
+}
+.col75{
+	width: 75%;
+	float: left;
+	margin-top: 6px;
+}
+label{
+	padding: 12px 12px 12px 0;
+	display: inline-block;
+}
+input[type=text], textarea{
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+.row:after{
+	content: "";
+	clear: both;
+	display: block;
+}
+
+input[type=submit]{
+	background-color: #4CAF50;
+	color: #fff;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	float: right;
+}
+.adres{
+	width: 49%;
+	height: 380px;
+	float: left;
+	border: 1px solid #d8d8d8;
+	padding: 10px;
+}
+h2{
+	text-align: center;
+}
+.span1{
+	display: block;
+	font-family: Calbiri;
+	margin: 10px;
+	letter-spacing: 1.5px;
+	text-align: center;
+	font-size: 21px;
 }
